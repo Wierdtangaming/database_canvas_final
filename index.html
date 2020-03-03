@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>A canvas with a database</title>
+   <script src="p5/p5.min.js"></script> 
+    <script src="p5/p5.sound.min.js"></script>
+    <script src="p5/p5.play.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyAxHe5PrVxP6L8qg0DvhttiWESpIAjGzQM",
+    authDomain: "canvas-3c5bd.firebaseapp.com",
+    databaseURL: "https://canvas-3c5bd.firebaseio.com",
+    projectId: "canvas-3c5bd",
+    storageBucket: "canvas-3c5bd.appspot.com",
+    messagingSenderId: "1074930603029",
+    appId: "1:1074930603029:web:f0a2f986bdd7cd6daaea1c"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <br>
+    <h1>The Universal Canvas</h1>
+    <div id  = "canvasContainer">
+
+    <script src="sketch.js"></script><br><br>
+    
+  </div>
+  </body>
+</html>
