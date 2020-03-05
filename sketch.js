@@ -17,10 +17,10 @@ function setup() {
     bg = prompt("Enter bg colour");
     clr = prompt("Enter pen colour");
     console.log(bg+clr);
-    if (bg = 0) {
+    if (bg === 0) {
         bg = "black";
     }
-    if (clr = 0) {
+    if (clr === 0) {
         clr = "white";
     }
     var drawing_done = database.ref('drawings/drawing')
